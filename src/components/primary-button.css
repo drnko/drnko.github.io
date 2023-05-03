@@ -1,0 +1,31 @@
+.primary-button-container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.primary-button-button {
+  color: #000000;
+  align-self: center;
+  transition: 0.3s;
+  padding-top: 12px;
+  border-width: 0px;
+  padding-left: 32px;
+  border-radius: var(--dl-radius-radius-radius6);
+  padding-right: 32px;
+  padding-bottom: 12px;
+  background-color: #f5bd00;
+}
+.primary-button-button:hover {
+  background-color: #F5BD00;
+}
+.primary-button-button:active {
+  background-color: #F5BD00;
+}
+@media(max-width: 479px) {
+  .primary-button-button {
+    color: #000000;
+    background-color: #f5bd00;
+  }
+}

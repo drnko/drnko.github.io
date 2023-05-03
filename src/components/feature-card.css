@@ -1,0 +1,30 @@
+.feature-card-container {
+  width: 320px;
+  margin: var(--dl-space-space-halfunit);
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.feature-card-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: DoubleUnit;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.feature-card-text {
+  margin-top: var(--dl-space-space-unit);
+}
+.feature-card-image {
+  width: var(--dl-size-size-doubleunit);
+  height: var(--dl-size-size-doubleunit);
+  object-fit: cover;
+}
+.feature-card-text1 {
+  text-align: center;
+}
+.feature-card-root-class-name {
+  margin: var(--dl-space-space-halfunit);
+}
