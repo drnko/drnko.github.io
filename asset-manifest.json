@@ -1,19 +1,13 @@
 {
   "files": {
-    "main.css": "/drnko.github.io/static/css/main.38b2441a.css",
-    "main.js": "/drnko.github.io/static/js/main.3c0c1074.js",
-    "static/js/787.bdb626b4.chunk.js": "/drnko.github.io/static/js/787.bdb626b4.chunk.js",
-    "static/media/User.png": "/drnko.github.io/static/media/User.adbbce76dc785eeee7ee.png",
-    "static/media/Retailer.png": "/drnko.github.io/static/media/Retailer.6505c2dff4a4a409b0d5.png",
-    "static/media/Companies.png": "/drnko.github.io/static/media/Companies.7ce17ac20482dc0ac776.png",
-    "static/media/google-play.png": "/drnko.github.io/static/media/google-play.e57733cb2bb4d9f0a624.png",
+    "main.css": "/drnko.github.io/static/css/main.99aa7c20.css",
+    "main.js": "/drnko.github.io/static/js/main.5d0ce59e.js",
     "index.html": "/drnko.github.io/index.html",
-    "main.38b2441a.css.map": "/drnko.github.io/static/css/main.38b2441a.css.map",
-    "main.3c0c1074.js.map": "/drnko.github.io/static/js/main.3c0c1074.js.map",
-    "787.bdb626b4.chunk.js.map": "/drnko.github.io/static/js/787.bdb626b4.chunk.js.map"
+    "main.99aa7c20.css.map": "/drnko.github.io/static/css/main.99aa7c20.css.map",
+    "main.5d0ce59e.js.map": "/drnko.github.io/static/js/main.5d0ce59e.js.map"
   },
   "entrypoints": [
-    "static/css/main.38b2441a.css",
-    "static/js/main.3c0c1074.js"
+    "static/css/main.99aa7c20.css",
+    "static/js/main.5d0ce59e.js"
   ]
 }
