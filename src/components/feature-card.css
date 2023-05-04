@@ -15,7 +15,13 @@
   justify-content: center;
 }
 .feature-card-text {
+  font-size: 40px;
   margin-top: var(--dl-space-space-unit);
+  font-family: Inter;
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-unit);
+  text-transform: none;
+  text-decoration: none;
 }
 .feature-card-image {
   width: var(--dl-size-size-doubleunit);
@@ -23,8 +29,33 @@
   object-fit: cover;
 }
 .feature-card-text1 {
+  margin-top: var(--dl-space-space-unit);
   text-align: center;
 }
 .feature-card-root-class-name {
   margin: var(--dl-space-space-halfunit);
+}
+@media(max-width: 991px) {
+  .feature-card-text {
+    font-size: 30px;
+  }
+  .feature-card-text1 {
+    font-size: 13px;
+  }
+}
+@media(max-width: 767px) {
+  .feature-card-text {
+    font-size: 25px;
+  }
+  .feature-card-text1 {
+    font-size: 10px;
+  }
+}
+@media(max-width: 360px) {
+  .feature-card-text {
+    font-size: 40px;
+  }
+  .feature-card-text1 {
+    font-size: 14px;
+  }
 }

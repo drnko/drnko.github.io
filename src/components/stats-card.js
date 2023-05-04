@@ -21,19 +21,19 @@ const StatsCard = (props) => {
 }
 
 StatsCard.defaultProps = {
+  rootClassName: '',
   number: '10',
-  image_src: '/playground_assets/05.svg',
+  image_src: './playground_assets/05.svg',
   description: 'Description',
   image_alt: 'image',
-  rootClassName: '',
 }
 
 StatsCard.propTypes = {
+  rootClassName: PropTypes.string,
   number: PropTypes.string,
   image_src: PropTypes.string,
   description: PropTypes.string,
   image_alt: PropTypes.string,
-  rootClassName: PropTypes.string,
 }
 
 export default StatsCard

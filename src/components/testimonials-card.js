@@ -26,24 +26,24 @@ const TestimonialsCard = (props) => {
 TestimonialsCard.defaultProps = {
   image_alt1: 'image',
   image_alt: 'image',
+  rootClassName: '',
   text2: 'Vice President, GoPro',
   text1: 'Floyd Miles',
   text: 'To quickly start my startup landing page design, I was looking for a landing page UI Kit. Landify is one of the best landing page UI kit I have come across. It’s so flexible, well organised and easily editable.',
   image_src:
     'https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/2560px-Airbnb_Logo_B%C3%A9lo.svg.png',
-  image_src1: '/playground_assets/quote-mark.svg',
-  rootClassName: '',
+  image_src1: './playground_assets/quote-mark.svg',
 }
 
 TestimonialsCard.propTypes = {
   image_alt1: PropTypes.string,
   image_alt: PropTypes.string,
+  rootClassName: PropTypes.string,
   text2: PropTypes.string,
   text1: PropTypes.string,
   text: PropTypes.string,
   image_src: PropTypes.string,
   image_src1: PropTypes.string,
-  rootClassName: PropTypes.string,
 }
 
 export default TestimonialsCard

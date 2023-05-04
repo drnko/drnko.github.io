@@ -17,15 +17,15 @@ const AppStore = (props) => {
 }
 
 AppStore.defaultProps = {
+  image_src1: './playground_assets/app-store-badge-200h.png',
   rootClassName: '',
   image_alt1: 'image',
-  image_src1: '/playground_assets/app-store-badge-200h.png',
 }
 
 AppStore.propTypes = {
+  image_src1: PropTypes.string,
   rootClassName: PropTypes.string,
   image_alt1: PropTypes.string,
-  image_src1: PropTypes.string,
 }
 
 export default AppStore

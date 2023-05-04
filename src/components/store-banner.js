@@ -24,10 +24,10 @@ const StoreBanner = (props) => {
 StoreBanner.defaultProps = {
   image_src: '6b27718d-5434-4cc9-bba3-1266a4247292',
   image_alt1: 'image',
-  image_src1: '/playground_assets/google-play-badge-200h.png',
+  image_src1: './playground_assets/google-play-badge-200h.png',
   image_alt: 'image',
   rootClassName: '',
-  image_src2: '/playground_assets/app-store-badge-200h.png',
+  image_src2: './playground_assets/app-store-badge-200h.png',
   image_alt2: 'image',
 }
 

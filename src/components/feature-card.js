@@ -8,7 +8,7 @@ const FeatureCard = (props) => {
   return (
     <div className={`feature-card-container ${props.rootClassName} `}>
       <div className="feature-card-container1">
-        <h5 className="feature-card-text Headline5">{props.card_title}</h5>
+        <h5 className="feature-card-text">{props.card_title}</h5>
       </div>
       <img
         alt={props.image_alt}
@@ -24,7 +24,7 @@ FeatureCard.defaultProps = {
   rootClassName: '',
   card_title: 'Title',
   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
-  image_src: '/playground_assets/01.svg',
+  image_src: './playground_assets/01.svg',
   image_alt: 'image',
 }
 

@@ -23,7 +23,7 @@
 .primary-button-button:active {
   background-color: #F5BD00;
 }
-@media(max-width: 479px) {
+@media(max-width: 360px) {
   .primary-button-button {
     color: #000000;
     background-color: #f5bd00;
