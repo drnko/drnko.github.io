@@ -278,7 +278,7 @@ const Home = (props) => {
           ></Player>
           <div className="home-container20">
             <a
-              href="https://play.google.com/store/apps/details?id=com.drnko.socialapp"
+              href="https://drnko.com/about_us.html"
               target="_blank"
               rel="noreferrer noopener"
               className="home-link15"
@@ -286,7 +286,7 @@ const Home = (props) => {
               About Us
             </a>
             <a
-              href="https://play.google.com/store/apps/details?id=com.drnko.socialapp"
+              href="https://drnko.com/privacy_policy.html"
               target="_blank"
               rel="noreferrer noopener"
               className="home-link16"
@@ -294,7 +294,7 @@ const Home = (props) => {
               Privacy Policy
             </a>
             <a
-              href="https://play.google.com/store/apps/details?id=com.drnko.socialapp"
+              href="https://drnko.com/terms_and_conditions.html"
               target="_blank"
               rel="noreferrer noopener"
               className="home-link17"
