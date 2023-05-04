@@ -6,7 +6,7 @@ import './stats-card.css'
 
 const StatsCard = (props) => {
   return (
-    <div className="stats-card-container">
+    <div className={`stats-card-container ${props.rootClassName} `}>
       <img
         alt={props.image_alt}
         src={props.image_src}
@@ -25,6 +25,7 @@ StatsCard.defaultProps = {
   image_src: '/playground_assets/05.svg',
   description: 'Description',
   image_alt: 'image',
+  rootClassName: '',
 }
 
 StatsCard.propTypes = {
@@ -32,6 +33,7 @@ StatsCard.propTypes = {
   image_src: PropTypes.string,
   description: PropTypes.string,
   image_alt: PropTypes.string,
+  rootClassName: PropTypes.string,
 }
 
 export default StatsCard

@@ -6,7 +6,7 @@ import './testimonials-card.css'
 
 const TestimonialsCard = (props) => {
   return (
-    <div className="testimonials-card-container">
+    <div className={`testimonials-card-container ${props.rootClassName} `}>
       <div className="testimonials-card-container1">
         <img
           alt={props.image_alt1}
@@ -32,6 +32,7 @@ TestimonialsCard.defaultProps = {
   image_src:
     'https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/2560px-Airbnb_Logo_B%C3%A9lo.svg.png',
   image_src1: '/playground_assets/quote-mark.svg',
+  rootClassName: '',
 }
 
 TestimonialsCard.propTypes = {
@@ -42,6 +43,7 @@ TestimonialsCard.propTypes = {
   text: PropTypes.string,
   image_src: PropTypes.string,
   image_src1: PropTypes.string,
+  rootClassName: PropTypes.string,
 }
 
 export default TestimonialsCard

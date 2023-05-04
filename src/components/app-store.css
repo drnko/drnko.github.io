@@ -1,0 +1,16 @@
+.app-store-store-banner {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.app-store-image {
+  width: 135px;
+  object-fit: cover;
+}
+.app-store-root-class-name {
+  margin-left: var(--dl-space-space-doubleunit);
+}
+.app-store-root-class-name1 {
+  margin-left: var(--dl-space-space-unit);
+}
