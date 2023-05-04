@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/drnko.github.io/static/css/main.99aa7c20.css",
-    "main.js": "/drnko.github.io/static/js/main.12cb9c8b.js",
+    "main.js": "/drnko.github.io/static/js/main.622b7374.js",
     "index.html": "/drnko.github.io/index.html",
     "main.99aa7c20.css.map": "/drnko.github.io/static/css/main.99aa7c20.css.map",
-    "main.12cb9c8b.js.map": "/drnko.github.io/static/js/main.12cb9c8b.js.map"
+    "main.622b7374.js.map": "/drnko.github.io/static/js/main.622b7374.js.map"
   },
   "entrypoints": [
     "static/css/main.99aa7c20.css",
-    "static/js/main.12cb9c8b.js"
+    "static/js/main.622b7374.js"
   ]
 }
